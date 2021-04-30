@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botstrap Tutorial</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="breakpoint bg-warning pt-3 pb-3">
+        <div class="container-sm text-center bg-dark text-danger p-2 "><h4>100% wide until small breakpoint</h4> </div>
+        <div class="container-md text-center bg-light text-danger p-2"><h4> 100% wide until medium breakpoint</h4></div>
+        <div class="container-lg text-center bg-primary text-danger p-2"><h4>100% wide until large breakpoint </h4> </div>
+        <div class="container-xl text-center bg-dark text-danger p-2"><h4>100% wide until extra large breakpoint</h4> </div>
+        <div class="container-xxl text-center bg-secondary text-danger p-2"><h4>100% wide until extra extra large breakpoint</h4> </div>
+    </section>
+    <!--Break Point Section End-->
+
+    <section class="grid mt-3 text-center bg-success  text-danger p-3 font-w">
+        <div class="container bg-dark">
+            <div class="row">
+              <div class="col-sm border">
+                One of three columns
+              </div>
+              <div class="col-sm border">
+                One of three columns
+              </div>
+              <div class="col-sm border">
+                One of three columns
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <section class="equal-width mt-3 text-center bg-primary text-danger p-3 font-w">
+        <div class="container bg-secondary">
+            <div class="row">
+              <div class="col border">
+                1 of 2
+              </div>
+              <div class="col border">
+                2 of 2
+              </div>
+            </div>
+            <div class="row">
+              <div class="col border">
+                1 of 3
+              </div>
+              <div class="col border">
+                2 of 3
+              </div>
+              <div class="col border">
+                3 of 3
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <section class="one-column-width mt-3 text-center bg-success text-danger p-3 font-w">
+        <div class="container bg-dark">
+            <div class="row">
+              <div class="col border">
+                1 of 3
+              </div>
+              <div class="col-6 border">
+                2 of 3 (wider)
+              </div>
+              <div class="col border">
+                3 of 3
+              </div>
+            </div>
+            <div class="row">
+              <div class="col border">
+                1 of 3
+              </div>
+              <div class="col-5 border">
+                2 of 3 (wider)
+              </div>
+              <div class="col border">
+                3 of 3
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <section class="v-width-content mt-3 text-center bg-primary text-danger p-3 font-w">
+        <div class="container bg-secondary">
+            <div class="row justify-content-md-center">
+              <div class="col col-lg-2 border">
+                1 of 3
+              </div>
+              <div class="col-md-auto border">
+                Variable width content
+              </div>
+              <div class="col col-lg-2 border">
+                3 of 3
+              </div>
+            </div>
+            <div class="row">
+              <div class="col border">
+                1 of 3
+              </div>
+              <div class="col-md-auto border">
+                Variable width content
+              </div>
+              <div class="col col-lg-2 border">
+                3 of 3
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <section class="mix-and-match mt-3 text-center bg-success text-danger p-3 font-w">
+        <div class="container bg-dark ">
+            <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+            <div class="row">
+              <div class="col-md-8 border">.col-md-8</div>
+              <div class="col-6 col-md-4 border">.col-6 .col-md-4</div>
+            </div>
+          
+            <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+            <div class="row">
+              <div class="col-6 col-md-4 border">.col-6 .col-md-4</div>
+              <div class="col-6 col-md-4 border">.col-6 .col-md-4</div>
+              <div class="col-6 col-md-4 border">.col-6 .col-md-4</div>
+            </div>
+          
+            <!-- Columns are always 50% wide, on mobile and desktop -->
+            <div class="row">
+              <div class="col-6 border">.col-6</div>
+              <div class="col-6 border">.col-6</div>
+            </div>
+          </div>
+    </section>
+
+    <section class="nesting mt-3 text-center bg-primary text-danger p-3 font-w">
+        <div class="container bg-secondary">
+            <div class="row">
+              <div class="col-sm-3 border">
+                Level 1: .col-sm-3
+              </div>
+              <div class="col-sm-9 pt-2 pb-2">
+                <div class="row">
+                  <div class="col-8 col-sm-6 border">
+                    Level 2: .col-8 .col-sm-6
+                  </div>
+                  <div class="col-4 col-sm-6 border">
+                    Level 2: .col-4 .col-sm-6
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <section class="column mt-3 text-center bg-success text-danger p-3 font-w">
+            <div class="container h-auto">
+                <div class="row align-items-start height-in border bg-dark">
+                <div class="col">
+                    One of three columns
+                </div>
+                <div class="col">
+                    One of three columns
+                </div>
+                <div class="col">
+                    One of three columns
+                </div>
+                </div>
+                <div class="row align-items-center height-in border bg-dark">
+                <div class="col">
+                    One of three columns
+                </div>
+                <div class="col">
+                    One of three columns
+                </div>
+                <div class="col">
+                    One of three columns
+                </div>
+                </div>
+                <div class="row align-items-end height-in border bg-dark">
+                <div class="col">
+                    One of three columns
+                </div>
+                <div class="col">
+                    One of three columns
+                </div>
+                <div class="col">
+                    One of three columns
+                </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="h-align mt-3 text-center bg-primary text-danger p-3 font-w">
+        <div class="container bg-secondary">
+            <div class="row justify-content-start">
+              <div class="col-4 border">
+                One of two columns
+              </div>
+              <div class="col-4 border">
+                One of two columns
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-4 border">
+                One of two columns
+              </div>
+              <div class="col-4 border">
+                One of two columns
+              </div>
+            </div>
+            <div class="row justify-content-end">
+              <div class="col-4 border">
+                One of two columns
+              </div>
+              <div class="col-4 border">
+                One of two columns
+              </div>
+            </div>
+            <div class="row justify-content-around">
+              <div class="col-4 border">
+                One of two columns
+              </div>
+              <div class="col-4 border">
+                One of two columns
+              </div>
+            </div>
+            <div class="row justify-content-between">
+              <div class="col-4 border">
+                One of two columns
+              </div>
+              <div class="col-4 border">
+                One of two columns
+              </div>
+            </div>
+            <div class="row justify-content-evenly">
+              <div class="col-4 border">
+                One of two columns
+              </div>
+              <div class="col-4 border">
+                One of two columns
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <section class="standalone-column mt-3 bg-success text-white p-3 font-w">
+        <div class="container bg-dark p-4">
+            <div class="clearfix">
+                <img src="images/image-right.jpg" class="col-md-6 float-md-end mb-3 ms-md-3" alt="...">
+              
+                <p>
+                  A paragraph of placeholder text. We're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.
+                </p>
+              
+                <p>
+                  As you can see the paragraphs gracefully wrap around the floated image. Now imagine how this would look with some actual content in here, rather than just this boring placeholder text that goes on and on, but actually conveys no tangible information at. It simply takes up space and should not really be read.
+                </p>
+              
+                <p>
+                  And yet, here you are, still persevering in reading this placeholder text, hoping for some more insights, or some hidden easter egg of content. A joke, perhaps. Unfortunately, there's none of that here.
+                </p>
+                <p>
+                    As you can see the paragraphs gracefully wrap around the floated image. Now imagine how this would look with some actual content in here, rather than just this boring placeholder text that goes on and on, but actually conveys no tangible information at. It simply takes up space and should not really be read.
+                </p>
+              </div>
+        </div>
+
+    </section>
+    
+    <link rel="stylesheet" href="js/popper.min.js">
+    <link rel="stylesheet" href="js/bootstrap.min.js">
+    <link rel="stylesheet" href="js/script.js">
+</body>
+</html>
